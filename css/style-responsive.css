@@ -1,0 +1,210 @@
+@media (min-width: 1600px) {
+    .shop-by-category .category-image {
+        height: 240px
+    }
+}
+
+@media (min-width: 992px) {
+    .shop-by-category .tile-button {
+        -webkit-transform: translateY(5em);
+        -moz-transform: translateY(5em);
+        -ms-transform: translateY(5em);
+        -o-transform: translateY(5em);
+        transform: translateY(5em)
+    }
+    .tile-button {
+        -webkit-transform: translateY(5em);
+        -moz-transform: translateY(5em);
+        -ms-transform: translateY(5em);
+        -o-transform: translateY(5em);
+        transform: translateY(5em);
+        opacity: 0
+    }
+    .tile-button__text {
+        -webkit-transform: translateY(40px);
+        -moz-transform: translateY(40px);
+        -ms-transform: translateY(40px);
+        -o-transform: translateY(40px);
+        transform: translateY(40px)
+    }
+}
+
+@media (min-width: 768px) {
+    .shop-by-category .category-text .caption {
+        left: 28px
+    }
+    .category:hover .tile-button,
+    .category:focus .tile-button,
+    .category:active .tile-button {
+        -webkit-transform: translateY(13px);
+        -moz-transform: translateY(13px);
+        -ms-transform: translateY(13px);
+        -o-transform: translateY(13px);
+        transform: translateY(13px);
+        opacity: 1
+    }
+    .tile-button {
+        right: 2em;
+        bottom: 2.25em
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .ei-slider {
+        height: 480px
+    }
+    .mega-dropdown ul li figure img {
+        max-width: 80%
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .ei-slider {
+        height: 400px
+    }
+    .mega-dropdown ul li a h5 {
+        font-size: 12px
+    }
+    .shop-by-category .category-text .caption {
+        bottom: 115px
+    }
+    .ei-title {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .testimonial-part {
+        padding: 50px 15px
+    }
+    .shop-by-category .category-text .caption {
+        bottom: 28px
+    }
+    .choose-us-box {
+        margin-bottom: 30px
+    }
+    .why-choose-us-part {
+        padding: 30px 0;
+    }
+    .bottom-about-part {
+        text-align: center
+    }
+    .bottom-about-part figure {
+        margin-top: 25px
+    }
+    .ei-slider {
+        height: 350px
+    }
+    .ei-title {
+        right: 37%;
+        width: 362px;
+    }
+    .ei-title h2 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .ei-title h3 {
+        font-size: 22px;
+    }
+    .shop-by-category .category-image {
+        height: 200px;
+        max-height: 200px;
+    }
+    .navbar-toggle {
+        background: transparent;
+        margin: 0;
+        position: relative;
+        top: 25px;
+        right: 15px;
+    }
+    .navbar-toggle .icon-bar {
+        background: #000;
+    }
+    .navbar-nav > li {
+        position: relative;
+        padding: 5px;
+    }
+    .navbar-nav > li > a {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .mega-dropdown ul li figure img {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .about-section {
+        padding: 30px;
+    }
+    .about-section h2,
+    .main-tilte {
+        font-size: 34px
+    }
+    .bottom-about-part h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .title-choose,
+    .section-title {
+        font-size: 20px
+    }
+    .browse-more-link {
+        font-size: 15px;
+    }
+    .footer-list h4,
+    .social-part h4 {
+        font-size: 16px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    footer .col-xs-8,
+    footer .col-xs-4 {
+        width: 100%;
+        text-align: center
+    }
+    .social-part {
+        text-align: center;
+        margin-bottom: 15px
+    }
+    .about-section {
+        padding: 30px 0;
+    }
+    .about-section h2,
+    .main-tilte {
+        letter-spacing: 1px
+    }
+    .mega-dropdown ul li {
+        display: inline-block;
+        width: 32%;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    footer .col-xs-6 {
+        width: 100%
+    }
+    .shop-by-category .category-text .caption {
+        bottom: 100px;
+    }
+    .ei-title {
+        width: 270px;
+        right: 50px;
+    }
+    .ei-title h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .about-section h5 {
+        max-width: 100%;
+    }
+    .ei-slider {
+        height: 250px;
+    }
+    .mega-dropdown ul li {
+        width: 49%;
+    }
+}
